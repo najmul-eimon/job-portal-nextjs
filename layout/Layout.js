@@ -1,3 +1,4 @@
+import Footer from '@/components/navigation/footer/Footer';
 import Menubar from '@/components/navigation/Menubar';
 
 const Layout = ({children}) => {
@@ -5,6 +6,7 @@ const Layout = ({children}) => {
     <main>
       <Menubar/>
       {children}
+      <Footer/>
     </main>
   )
 }

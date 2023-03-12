@@ -1,5 +1,4 @@
-import borderLeft from '../../../assets/images/svg/copyright-border-left.svg';
-import borderRight from '../../../assets/images/svg/copyright-border-right.svg';
+import Image from 'next/image';
 
 const FooterBottom = () => {
   return (
@@ -8,9 +7,9 @@ const FooterBottom = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="copyright">
-              <img src={borderLeft} alt="Border" />
+              <Image src='images/svg/copyright-border-left.svg' alt="Border" width={148} height={14} />
               <p>Stay Hopeful, stay positive</p>
-              <img src={borderRight} alt="Border" />
+              <Image src='images/svg/copyright-border-right.svg' alt="Border" width={148} height={14} />
             </div>
           </div>
         </div>

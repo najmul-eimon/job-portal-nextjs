@@ -3,9 +3,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import {menuItems} from '@/data/menuItems';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Menubar = () => {
   const [scroll, setScroll] = useState(false);
+  const router = useRouter();
+  const fullPath = router.pathname.split('/');
+  const basePath = fullPath[1];
   
   useEffect(() => {
     document.addEventListener('scroll', () => {
@@ -49,7 +53,7 @@ const Menubar = () => {
                   {
                     menuItems.map(({id, name, link}) => (
                       <li key={id} className="nav-item">
-                        <Link className="nav-link" href={link === 'home' ? '/' : link} onClick={handleClick}>{name}</Link>
+                        <Link className={`nav-link ${basePath === link ? 'active' : ''}`} href={link} onClick={handleClick}>{name}</Link>
                       </li>
                     ))
                   }

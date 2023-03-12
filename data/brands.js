@@ -1,107 +1,98 @@
-import blvck from '../assets/images/company/blvck.svg';
-import bysl from '../assets/images/company/bysl.svg';
-import eversend from '../assets/images/company/eversend.svg';
-import feedly from '../assets/images/company/feedly.svg';
-import illiyeen from '../assets/images/company/illiyeen.svg';
-import legends from '../assets/images/company/legends.svg';
-import synckloud from '../assets/images/company/synckloud.svg';
-import zomato from '../assets/images/company/zomato.svg';
-
 export const brands = [
   {
     id: "c1",
-    image: blvck
+    image: 'images/company/blvck.svg'
   },
   {
     id: "c2",
-    image: bysl
+    image: 'images/company/bysl.svg'
   },
   {
     id: "c3",
-    image: eversend
+    image: 'images/company/eversend.svg'
   },
   {
     id: "c4",
-    image: feedly
+    image: 'images/company/feedly.svg'
   },
   {
     id: "c5",
-    image: illiyeen
+    image: 'images/company/illiyeen.svg'
   },
   {
     id: "c6",
-    image: legends
+    image: 'images/company/legends.svg'
   },
   {
     id: "c7",
-    image: synckloud
+    image: 'images/company/synckloud.svg'
   },
   {
     id: "c8",
-    image: zomato
+    image: 'images/company/zomato.svg'
   },
   {
     id: "c9",
-    image: illiyeen
+    image: 'images/company/illiyeen.svg'
   },
   {
     id: "c10",
-    image: blvck
+    image: 'images/company/blvck.svg'
   },
   {
     id: "c11",
-    image: bysl
+    image: 'images/company/bysl.svg'
   },
   {
     id: "c12",
-    image: eversend
+    image: 'images/company/eversend.svg'
   },
   {
     id: "c13",
-    image: feedly
+    image: 'images/company/feedly.svg'
   },
   {
     id: "c14",
-    image: synckloud
+    image: 'images/company/synckloud.svg'
   },
   {
     id: "c15",
-    image: zomato
+    image: 'images/company/zomato.svg'
   },
   {
     id: "c16",
-    image: blvck
+    image: 'images/company/blvck.svg'
   },
   {
     id: "c17",
-    image: bysl
+    image: 'images/company/bysl.svg'
   },
   {
     id: "c18",
-    image: eversend
+    image: 'images/company/eversend.svg'
   },
   {
     id: "c19",
-    image: feedly
+    image: 'images/company/feedly.svg'
   },
   {
     id: "c20",
-    image: legends
+    image: 'images/company/legends.svg'
   },
   {
     id: "c21",
-    image: synckloud
+    image: 'images/company/synckloud.svg'
   },
   {
     id: "c22",
-    image: zomato
+    image: 'images/company/zomato.svg'
   },
   {
     id: "c23",
-    image: blvck
+    image: 'images/company/blvck.svg'
   },
   {
     id: "c24",
-    image: bysl
+    image: 'images/company/bysl.svg'
   }
 ]

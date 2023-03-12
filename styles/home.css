@@ -490,7 +490,7 @@ popular-category CSS
 about CSS
 =============================================================*/
 .about {
-  background: url('../images/about-us.png') no-repeat center;
+  background: url('../public/images/about-us.png') no-repeat center;
   background-size: cover;
   padding-bottom: 162px;
 }
@@ -522,7 +522,7 @@ about CSS
 
 @media screen and (max-width: 767px) {
   .about {
-    background: url('../images/about-bg-mobile.png') no-repeat center;
+    background: url('../public/images/about-bg-mobile.png') no-repeat center;
     background-size: cover;
     background-position: bottom;
   }
