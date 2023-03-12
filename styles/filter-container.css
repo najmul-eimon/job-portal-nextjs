@@ -1,0 +1,148 @@
+/*===========================================================
+filter container  CSS
+=============================================================*/
+.page-count {
+  padding-bottom: 32px;
+}
+
+.page-count p {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.page-count p span {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--primary-text);
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.filter-container .job-category-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+
+.filter-container .job-category-buttons button {
+  border-color: rgba(54, 54, 54, 0.12);
+  padding: 7px 24px;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+
+.filter-container .job-category-buttons li.active button::before {
+  top: calc(-50% - 100px);
+  right: calc(0% - 50px);
+}
+
+.filter-container .job-category-buttons li.active button {
+  color: white;
+  border-color: var(--primary);
+}
+
+.filter-container .job-category-buttons li button:hover {
+  border-color: var(--primary);
+  color: white;
+}
+
+.filter-container .filter-button {
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary);
+}
+
+.filter-container .filter-button .icon {
+  font-size: 24px;
+}
+
+.filter-container .filter-button.active,
+.filter-container .filter-button:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+
+@media screen and (max-width: 767px) {
+  .page-count {
+    padding-bottom: 16px;
+  }
+
+  .page-count p {
+    font-size: 14px;
+  }
+
+  .page-count p span {
+    font-size: 20px;
+  }
+
+  .filter-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .filter-container .job-category-buttons {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .filter-container {
+    margin-bottom: 16px;
+  }
+
+  .filter-container .job-category-buttons li button:hover {
+    color: var(--primary-text);
+    border-color: rgba(54, 54, 54, 0.12);
+  }
+  .filter-container .job-category-buttons li.active button:hover {
+    color: white;
+  }
+
+  .filter-container .filter-button {
+    padding: 6px 8px;
+    border-width: 1px;
+    font-size: 14px;
+  }
+
+  .filter-container .job-category-buttons {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .advance-filter {
+    padding: 24px 8px;
+  }
+
+  .advance-filter .filter-title {
+    font-size: 20px;
+    padding-left: 8px;
+    padding-bottom: 28px;
+  }
+
+  .advance-filter .accordion-button {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .advance-filter {
+    width: 100%;
+  }
+}

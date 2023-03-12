@@ -1,0 +1,154 @@
+/*===========================================================
+recruiter-banner CSS
+=============================================================*/
+.recruiter-banner{
+  padding-top: 150px;
+  padding-bottom: 310px;
+  background: url('../images/recruiter-bg.png') no-repeat center;
+  background-size: cover;
+}
+
+.recruiter-banner .main-heading .border-text::after{
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .recruiter-banner {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .recruiter-banner{
+    padding-top: 82px;
+    padding-bottom: 270px;
+  }
+}
+
+/*===========================================================
+all-company CSS
+=============================================================*/
+.all-company .single-company{
+  background: white;
+  border: 1px solid #E2E5F1;
+  border-radius: 8px;
+  padding: 16px 16px 24px 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+.all-company .single-company:hover{
+  box-shadow: 0px 20px 24px -4px rgba(0, 0, 0, 0.08), 0px 8px 8px -4px rgba(0, 0, 0, 0.03);
+  border-color: white;
+}
+
+.all-company .single-company .company-title{
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 16px;
+}
+
+.all-company .single-company .icon{
+  height: 72px;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  margin: auto;
+}
+
+.all-company .single-company .icon img{
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.all-company .single-company h3{
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 0 36px;
+  color: var(--primary-text2);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  min-height: 48px;
+}
+
+.all-company .single-company span{
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.all-company .single-company ul{
+  padding: 16px 0;
+}
+
+.all-company .single-company ul li {
+  padding: 2px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.all-company .single-company ul li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.all-company .single-company ul li svg{
+  flex-shrink: 0;
+}
+
+.all-company .single-company ul li svg path{
+  transition: all 0.3s linear;
+}
+
+.all-company .single-company ul li a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.8);
+  transition: all 0.3s linear;
+}
+
+.all-company .single-company ul li:hover a {
+  color: var(--primary-text);
+}
+
+.all-company .single-company ul li:hover svg path {
+  fill: var(--primary-text);
+}
+
+.all-company .single-company .job-btn{
+  margin-top: 16px;
+}
+
+.all-company .single-company .job-btn a{
+  display: inline-block;
+  padding: 14px 41px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary);
+  background: rgba(35, 160, 156, 0.1);
+  border-radius: 4px;
+}
+
+.all-company .single-company:hover .job-btn a{
+  background-color: var(--primary);
+  color: white;
+}
+
+@media screen and (max-width: 1199px) {
+  .all-company .single-company h3{
+    padding: 0;
+  }
+}

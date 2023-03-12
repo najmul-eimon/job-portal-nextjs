@@ -1,0 +1,295 @@
+/*===========================================================
+header CSS
+=============================================================*/
+.navbar-toggler {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  backdrop-filter: blur(10.5px);
+}
+
+.menubar.navFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  animation: mymove 0.4s linear;
+  box-shadow: 0px 12px 9px -4px rgba(255, 255, 255, 0.04), 0px 4px 4px -2px rgba(0, 0, 0, 0.03);
+}
+
+.menubar .navbar {
+  padding: 16px 0;
+}
+
+.menubar .navbar-brand {
+  padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.menubar .nav-item {
+  margin: 0 8px !important;
+}
+
+.menubar .nav-link {
+  padding: 10px 13px !important;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(13, 13, 14, 0.60);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.menubar .nav-link:hover::after,
+.menubar .nav-link.active::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 117, 200, 0.08);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  animation: slide 7s ease-in-out infinite;
+}
+
+.menubar .nav-link:hover,
+.menubar .nav-link.active {
+  color: var(--primary-text);
+  background-color: rgba(0, 117, 200, 0.08);
+}
+
+.menubar .right-nav {
+  gap: 12px;
+}
+
+.menubar .right-nav .register-btn {
+  border-color: transparent;
+  padding: 8px 26px;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+
+.menubar .right-nav .register-btn:hover {
+  border-color: rgba(54, 54, 54, 0.12);
+  box-shadow: 0px 20px 24px -4px rgba(35, 160, 156, 0.04);
+  background-color: rgba(35, 160, 156, 0.12);
+}
+
+.menubar .right-nav .register-btn:hover::before {
+  opacity: 0.2;
+}
+
+.menubar .right-nav .login-btn {
+  padding: 8px 26px;
+  font-weight: 600;
+  box-shadow: 0px 20px 24px -4px rgba(0, 200, 183, 0.08), 0px 8px 8px -4px rgba(0, 200, 183, 0.03);
+}
+
+@media screen and (max-width: 991px) {
+  .menubar .navbar {
+    padding: 8px 0;
+  }
+
+  .menubar .right-nav .register-btn {
+    border-color: rgba(54, 54, 54, 0.12);
+    box-shadow: 0px 20px 24px -4px rgba(35, 160, 156, 0.04);
+    background-color: rgba(35, 160, 156, 0.12);
+  }
+
+  .menubar .nav-item {
+    margin: 4px 0 !important;
+  }
+
+  .menubar .nav-link{
+    width: fit-content;
+  }
+
+  .menubar .nav-link:hover::after {
+    opacity: 0;
+    animation: none;
+  }
+
+  .menubar .nav-link:hover {
+    color: initial;
+    background-color: transparent;
+  }
+}
+
+
+/*===========================================================
+footer CSS
+=============================================================*/
+footer {
+  padding-top: 80px;
+  padding-bottom: 26px;
+  background: #FDFEFF;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.footer-top {
+  padding-bottom: 188px;
+}
+
+.footer-top .about-company {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.6);
+  padding-top: 32px;
+}
+
+.footer-top .social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 72px;
+}
+
+.footer-top .social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px 32px -12px rgba(189, 189, 189, 0.5);
+}
+
+.footer-top .social a img {
+  transition: all 0.4s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+
+.footer-top .social a:hover{
+  background-color: var(--primary);
+}
+
+.footer-top .social a:hover img {
+  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(14%) saturate(0%) hue-rotate(14deg) brightness(109%) contrast(101%);
+}
+
+.footer-top .footer-title h4 {
+  padding-bottom: 40px;
+  font-size: 20px;
+  color: var(--primary-text2);
+  font-weight: 700;
+}
+
+.footer-top .footer-links li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-top .footer-links a {
+  display: inline-block;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.footer-top .footer-links a:hover {
+  color: var(--primary);
+}
+
+.footer-bottom .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-bottom .copyright p {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--primary-text2);
+  flex-shrink: 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  footer {
+    padding-top: 40px;
+  }
+
+  .footer-top {
+    padding-bottom: 56px;
+  }
+
+  .footer-top .about-company {
+    padding-top: 24px;
+  }
+
+  .footer-top .social {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 40px;
+  }
+
+  .footer-top {
+    padding-bottom: 56px;
+  }
+
+  .footer-top .about-company {
+    padding-top: 24px;
+  }
+
+  .footer-top .social {
+    margin-top: 32px;
+  }
+
+  .footer-about {
+    margin-bottom: 64px;
+  }
+
+  .footer-top .footer-title h4 {
+    padding-bottom: 32px;
+    font-size: 16px;
+  }
+
+  .footer-top .footer-links li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .footer-bottom .copyright img {
+    width: 50px;
+  }
+}

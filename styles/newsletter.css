@@ -1,0 +1,106 @@
+/*===========================================================
+job-newsletter CSS
+=============================================================*/
+.job-newsletter{
+  background: linear-gradient(170.99deg, rgba(222, 250, 247, 0.2) 5.7%, rgba(255, 255, 255, 0.1) 82.49%);
+}
+
+.job-newsletter h2{
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--primary);
+}
+
+.job-newsletter p{
+  padding-top: 16px;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.job-newsletter .form-filed{
+  background: #F9F9F9;
+  border-radius: 90px;
+  width: 100%;
+  max-width: 546px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+  padding: 8px;
+  margin-top: 80px;
+}
+
+.job-newsletter .form-filed input{
+  width: 100%;
+  flex-grow: 1;
+  height: 100%;
+  padding-left: 8px;
+  background-color: transparent;
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.job-newsletter .form-filed input::placeholder{
+  font-size: 14px;
+  color: rgba(7, 7, 7, 0.4);
+}
+
+.job-newsletter .form-filed button{
+  flex-shrink: 0;
+  padding: 12px 20px;
+  /* font-weight: 500; */
+  font-size: 18px;
+  line-height: 24px;
+  /* color: white;
+  background-color: var(--primary); */
+  border-radius: 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .job-newsletter .form-filed{
+    margin-top: 32px;
+    height: 45px;
+  }
+
+  .job-newsletter .form-filed button{
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .job-newsletter h2{
+    font-size: 24px;
+  }
+
+  .job-newsletter p{
+    font-size: 14px;
+  }
+
+  .job-newsletter .form-filed{
+    margin-top: 32px;
+    height: 45px;
+    padding: 4px;
+    gap: 4px;
+  }
+
+  .job-newsletter .form-filed button{
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .job-newsletter .form-filed input,
+  .job-newsletter .form-filed input::placeholder{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .job-newsletter .image{
+    margin-top: 70px;
+    text-align: center !important;
+  }
+}

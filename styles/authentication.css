@@ -1,0 +1,214 @@
+/*===========================================================
+register CSS
+=============================================================*/
+.register{
+  margin-top: 80px;
+}
+
+.register .btn-row-gutter{
+  --bs-gutter-y: 16px;
+}
+
+.register .title{
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.signup-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-text);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.divider{
+  text-align: center;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.input-box:not(:last-child){
+  margin-bottom: 24px;
+}
+
+.input-box label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.input-box label .require{
+  color: #FF2C2C;
+}
+
+.input-box .inputs{
+  width: 100%;
+  height: 48px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 0 12px;
+  outline: none;
+  font-size: 16px;
+  color: var(--primary-text);
+  transition: all 0.3s linear;
+}
+
+.input-box .inputs:hover,
+.input-box .inputs:focus{
+  border-color: var(--primary);
+}
+
+.input-box .inputs::placeholder{
+  color: rgba(13, 13, 14, 0.4);
+  font-size: 16px;
+}
+
+.input-check-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  gap: 16px;
+}
+
+.input-box p,
+.input-check-box span{
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.input-box p a,
+.input-check-box span a{
+  color: #33AAFF;
+  text-decoration: underline;
+}
+
+.input-box .forgot-pass{
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.input-box button{
+  padding: 12px 105px;
+}
+
+.input-box button.login-btn{
+  padding: 12px 180px;
+}
+
+.input-box .animate-btn::before{
+  right: 100%;
+}
+
+.input-box .animate-btn:hover::before{
+  right: calc(0% - 50px);
+}
+
+@media screen and (max-width:991px){
+  .register{
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .register .title span{
+    font-size: 14px;
+  }
+
+  .register .title h2{
+    font-size: 20px;
+  }
+
+  .signup-btn {
+    padding: 8px 0;
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .divider {
+    font-size: 16px;
+  }
+
+  .input-box .inputs,
+  .input-box .inputs::placeholder,
+  .input-box p, 
+  .input-check-box span {
+    font-size: 12px;
+  }
+
+  .input-box .animate-btn:hover::before{
+    right: 100%;
+  }
+  
+}
+
+@media screen and (max-width:575px){
+  .input-box button,
+  .input-box button.login-btn{
+    padding: 12px 0;
+    width: 100%;
+  }
+
+  .input-check-box{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+}
+
+/*===========================================================
+bg CSS
+=============================================================*/
+.bg{
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) and (max-width:1399px){
+  .bg .banner-bg {
+    transform: translateX(-26%);
+  }
+}
+
+@media (min-width: 1024px) and (max-width:1199px){
+  .bg .banner-bg {
+    transform: translateX(-36%);
+  }
+}
+
+@media (min-width: 992px) and (max-width:1023px){
+  .bg .banner-bg {
+    transform: translateX(-46%);
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .bg .banner-bg {
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .bg .banner-bg {
+    transform: translateX(-60%);
+  }
+}
+
+@media screen and (max-width:575px){
+  .bg .banner-bg {
+    transform: translateX(-70%);
+  }
+}

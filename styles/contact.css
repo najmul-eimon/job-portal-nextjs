@@ -1,0 +1,178 @@
+/*===========================================================
+address CSS
+=============================================================*/
+.address{
+  margin-top: 80px;
+}
+
+.address h3{
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--primary-text);
+  padding-top: 24px;
+}
+
+.address p{
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.8);
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.address a{
+  font-size: 16px;
+  color: var(--text);
+  text-decoration: underline;
+}
+
+@media screen and (max-width:991px){
+  .address{
+    margin-top: 56px;
+  }
+}
+
+/*===========================================================
+contact CSS
+=============================================================*/
+.contact .section-title{
+  padding-bottom: 32px;
+}
+
+.contact .section-title h2{
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--primary-text);
+  padding-bottom: 24px;
+}
+
+.contact .section-title p{
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.6);
+}
+
+.contact .input-box:not(:last-child){
+  margin-bottom: 24px;
+}
+
+.contact .input-box label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.contact .input-box .inputs{
+  width: 100%;
+  height: 48px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 0 12px;
+  outline: none;
+  font-size: 16px;
+  color: var(--primary-text);
+  transition: all 0.3s linear;
+}
+
+.contact .input-box textarea.inputs{
+  padding: 12px;
+  height: 180px;
+  display: block;
+}
+
+.contact .input-box .inputs:hover,
+.contact .input-box .inputs:focus{
+  border-color: var(--primary);
+}
+
+.contact .input-box .inputs::placeholder{
+  color: #505050;
+  font-size: 16px;
+}
+
+.contact .input-check-box{
+  padding-bottom: 8px;
+}
+
+.contact .input-check-box span{
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.contact .input-check-box span a{
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.contact .input-box button{
+  padding: 8px 106px;
+}
+
+.contact .input-box button::before{
+  right: 100%;
+}
+
+.contact .input-box button:hover::before{
+  right: calc(0% - 30%);
+}
+
+.contact .map-card{
+  width: 100%;
+  height: 664px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact .map-card .map{
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .contact .section-title h2{
+    font-size: 28px;
+    padding-bottom: 12px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .contact .section-title h2{
+    font-size: 24px;
+    padding-bottom: 12px;
+  }
+
+  .contact .input-box:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  .contact .input-box .inputs{
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .contact .input-box .inputs::placeholder{
+    font-size: 14px;
+  }
+
+  .contact .input-check-box {
+    padding-bottom: 0;
+  }
+
+  .contact .map-card{
+    height: 400px;
+  }
+
+  .contact .input-box button::before,
+  .contact .input-box button:hover::before{
+    right: 100%;
+  }
+}
+
+@media screen and (max-width:575px){
+  .contact .input-box button{
+    padding: 10px 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,270 @@
+/*===========================================================
+filter CSS
+=============================================================*/
+.filter-job {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  box-shadow: 0px 20px 24px -4px rgba(0, 0, 0, 0.08), 0px 8px 8px -4px rgba(0, 0, 0, 0.03);
+  margin-top: 87px;
+  margin-bottom: 69px;
+  padding: 0 12px;
+}
+
+.filter-job .single-category {
+  padding: 12px;
+  position: relative;
+}
+
+.filter-job .single-category .category-heading {
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.filter-job .single-category .category-heading>div {
+  gap: 12px;
+}
+
+.filter-job small {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.filter-job i {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+}
+
+.filter-job .icon {
+  display: flex;
+  padding: 4px;
+}
+
+.filter-job .keywords input {
+  width: 100%;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-text);
+  background-color: transparent;
+}
+
+.filter-job .keywords input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.filter-job .search-btn-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.filter-job .search-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 28px;
+}
+
+.filter-job .search-btn .search-icon {
+  font-size: 20px;
+  color: white;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  .filter-job {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .filter-job {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .filter-job .search-btn-main {
+    justify-content: start;
+  }
+
+  .filter-job .search-btn {
+    padding: 10px 26px;
+  }
+
+  .filter-job {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .filter-job {
+    /* background: rgba(255, 255, 255, 0.06); */
+    box-shadow: -2px 2px 16px -4px rgba(0, 0, 0, 0.08), 2px 1px 6px -2px rgba(0, 0, 0, 0.03);
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+
+  .filter-job .single-category .category-heading {
+    justify-content: space-between;
+  }
+
+  .filter-job .single-category.keywords .category-heading {
+    justify-content: start;
+  }
+
+  .filter-job .single-category {
+    padding: 0;
+  }
+
+  .filter-job .search-btn-main {
+    justify-content: center;
+    padding-top: 27px;
+  }
+
+  .filter-job .search-btn {
+    padding: 9px 26px;
+  }
+
+  .filter-job .search-btn::before {
+    display: none;
+  }
+}
+
+/*===========================================================
+select CSS
+=============================================================*/
+.filter-select .btn-main{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.filter-select .btn-dropdown{
+  position: absolute;
+  top: 100%;
+  left: -8px;
+  margin-top: 11px;
+  background-color: #FDFDFD;
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.18);
+  z-index: 50;
+}
+
+.filter-select .btn-dropdown label {
+  position: relative;
+  display: block;
+  margin: 12px;
+}
+
+.filter-select .btn-dropdown span{
+  display: block;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-text2);
+}
+
+
+.filter-select .btn-dropdown input {
+  padding: 0 30px 0 12px;
+  background-color: #f5f5f5;
+  border-radius: 39px;
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--primary-text);
+}
+
+.filter-select .btn-dropdown input::placeholder {
+  color: rgba(13, 13, 14, 0.4);
+  font-size: 14px;
+}
+
+
+.filter-select .btn-dropdown label .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #393D4F;
+  font-size: 24px;
+}
+
+.filter-select .btn-dropdown ul{
+  margin: 16px 0;
+  padding-left: 12px;
+  padding-right: 16px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.filter-select .btn-dropdown ul li p {
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(13, 13, 14, 0.6);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+
+.filter-select .btn-dropdown ul li p:hover {
+  background-color: #E5F4FF;
+  color: rgba(13, 13, 14, 0.6);
+  padding-left: 8px;
+}
+
+.filter-select .btn-dropdown ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+.filter-select .btn-dropdown ul {
+  scrollbar-color: #224e53 #a5aaad;
+  scrollbar-width: thin;
+}
+
+.filter-select .btn-dropdown ul::-webkit-scrollbar-track {
+  background-color: #F2F2F2;
+}
+
+.filter-select .btn-dropdown ul::-moz-scrollbar-track {
+  background-color: #F2F2F2;
+}
+
+.filter-select .btn-dropdown ul::-webkit-scrollbar-thumb {
+  background: var(--primary-text);
+}
+
+.filter-select .btn-dropdown ul::-moz-scrollbar-thumb {
+  background: var(--primary-text);
+}
+
+@media screen and (max-width: 991px) {
+  .filter-select {
+    margin-left: 28px;
+  }
+
+  .filter-job .single-category .category-heading>div {
+    gap: 8px;
+  }
+
+  .filter-job .keywords input {
+    margin-left: 28px;
+  }
+
+}

@@ -1,0 +1,486 @@
+/*===========================================================
+company-banner CSS
+=============================================================*/
+.company-banner .banner-img {
+  height: 600px;
+}
+
+.company-banner .banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.company-banner .about-company {
+  margin-top: -40px;
+}
+
+.company-banner .about-company .heading {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.company-banner .about-company .heading .company-name {
+  margin-top: 40px;
+}
+
+.company-banner .about-company .heading .logo {
+  flex-shrink: 0;
+  height: 166px;
+  width: 166px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0px 20.4098px 24.4918px -4.08197px rgba(0, 0, 0, 0.08), 0px 8.16393px 8.16393px -4.08197px rgba(0, 0, 0, 0.03);
+}
+
+.company-banner .about-company .heading h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  color: var(--primary-text2);
+  padding-bottom: 12px;
+}
+
+.company-banner .about-company .heading span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(13, 13, 14, 0.4);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.company-banner .about-company .contact-phn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.company-banner .about-company .contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.company-banner .about-company .about-part {
+  padding: 48px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.company-banner .about-company h3 {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--primary-text);
+  padding-bottom: 24px;
+}
+
+.company-banner .about-company p {
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.company-banner .about-company .share-post {
+  padding-top: 24px;
+  text-align: right;
+}
+
+.company-banner .about-company .share-post h4 {
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+
+.company-banner .about-company .share-post ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.company-banner .about-company .share-post ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .company-banner .about-company .heading h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .company-banner .about-company .heading h2 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 8px;
+  }
+
+  .company-banner .banner-img {
+    height: 500px;
+  }
+
+  .company-banner .about-company .heading .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .company-banner .about-company .heading .logo img{
+    width: 80%;
+  }
+
+  .company-banner .about-company .contact-btn {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .company-banner .about-company .heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .company-banner .about-company .heading h2 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 8px;
+  }
+
+  .company-banner .banner-img {
+    height: 500px;
+  }
+
+  .company-banner .about-company .heading .logo {
+    height: 72px;
+    width: 72px;
+  }
+
+  .company-banner .about-company .heading .logo img{
+    width: 80%;
+  }
+
+  .company-banner .about-company .heading .company-name {
+    margin-top: 0;
+  }
+
+  .company-banner .about-company .contact-phn {
+    justify-content: flex-start;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  .company-banner .about-company .contact-btn {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .company-banner .about-company .about-part {
+    padding: 40px 0;
+  }
+
+  .company-banner .about-company h3 {
+    font-size: 18px;
+    padding-bottom: 16px;
+  }
+}
+
+/*===========================================================
+location-job CSS
+=============================================================*/
+.location-job .latest-job .section-title {
+  padding-bottom: 16px;
+}
+
+.location-job .latest-job .section-title h3 {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--primary-text2);
+}
+
+.location-job .page-count {
+  padding-bottom: 0;
+}
+
+.location-job .filter-container {
+  padding: 12px 0;
+}
+
+.location-job .single-company {
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #E2E5F1;
+  transition: all 0.4s ease-in-out;
+}
+
+.location-job .single-company:hover {
+  box-shadow: 0px 12px 16px -4px rgba(0, 0, 0, 0.08), 0px 4px 6px -2px rgba(0, 0, 0, 0.03);
+}
+
+.location-job .single-company .title-area {
+  padding: 12px 0;
+}
+
+.location-job .single-company .title-area h4 {
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--primary-text);
+}
+
+.location-job .single-company .title-area ul {
+  gap: 24px;
+}
+
+.location-job .single-company .title-area ul li {
+  gap: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.location-job .single-company .title-area svg path {
+  transition: all 0.3s linear;
+}
+
+.location-job .single-company:hover .title-area svg path {
+  stroke: var(--primary);
+  stroke-opacity: 1;
+  fill: rgba(0, 119, 204, 0.1);
+}
+
+.location-job .single-company .desc {
+  padding: 12px 0;
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.location-job .single-company .tags {
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.location-job .single-company .tags a {
+  display: inline-block;
+  padding: 4px;
+  background-color: #f4f4f4;
+  border-radius: 2px;
+  color: rgba(13, 13, 14, 0.8);
+  font-size: 12px;
+}
+
+.location-job .single-company .card-footer {
+  margin-top: 16px;
+}
+
+.location-job .single-company .card-footer button {
+  display: inline-block;
+  padding: 8px 90px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary);
+  background: #E5F4FF;
+  border-radius: 4px;
+}
+
+.location-job .single-company:hover .card-footer button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.location-job .single-company .card-footer p {
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary-text);
+}
+
+.location-job .single-company:hover .card-footer p {
+  color: var(--primary);
+}
+
+.location-job .single-company .card-footer p span {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.location-job .pagination {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.location-job .pagination li p,
+.location-job .pagination li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--primary-text2);
+  border-radius: 50%;
+}
+
+.location-job .pagination li.active a {
+  background: rgba(7, 7, 7, 0.08);
+}
+
+.location-job .company-location .section-title {
+  padding-bottom: 24px;
+}
+
+.location-job .company-location .section-title h3 {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--primary-text2);
+}
+
+.location-job .map-card {
+  padding: 16px;
+  border: 1px solid #E2E5F1;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.location-job .map-card .map iframe {
+  width: 100%;
+  height: 176px;
+}
+
+.location-job .map-card .map {
+  margin-bottom: 32px;
+}
+
+.location-job .map-card ul li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.location-job .map-card ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.location-job .map-card ul li span {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.location-job .map-card ul li p {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary-text2);
+  padding-top: 8px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .location-job .map-card ul li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .location-job .company-location{
+    margin-bottom: 40px;
+  }
+
+  .location-job .latest-job{
+    margin-top: 40px;
+  }
+
+  .location-job .map-card ul li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .location-job .map-card ul li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .location-job .company-location{
+    margin-bottom: 40px;
+  }
+
+  .location-job .latest-job{
+    margin-top: 40px;
+  }
+
+  .location-job .map-card {
+    padding: 12px;
+  }
+
+  .location-job .map-card .map {
+    margin-bottom: 24px;
+  }
+
+  .location-job .map-card ul li {
+    gap: 8px;
+  }
+
+  .location-job .filter-container{
+    flex-direction: column;
+  }
+
+  .location-job .filter-container {
+    padding: 0;
+  }
+
+  .location-job .page-count{
+    padding: 16px 0;
+  }
+
+  .location-job .single-company .card-footer button {
+    padding: 8px;
+  }
+}
+
+/*===========================================================
+job-location CSS
+=============================================================*/
+.company-details-location{
+  background: rgba(86, 184, 255, 0.02);
+}
+
+.company-details-location .job-location-slider{
+  padding-bottom: 36px;
+}
+
+.job-location-slider .swiper-pagination {
+  bottom: 0;
+}
+
+.job-location-slider .swiper-pagination-bullet {
+  margin: 0 8px;
+  height: 12px;
+  width: 12px;
+  background: var(--primary);
+  opacity: 0.3;
+  transition: all 0.3s linear;
+}
+
+.job-location-slider .swiper-pagination-bullet-active {
+  width: 34px;
+  background-color: #005999;
+  opacity: 1;
+  border-radius: 90px;
+}

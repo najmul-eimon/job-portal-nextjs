@@ -1,0 +1,259 @@
+/*===========================================================
+pricing CSS
+=============================================================*/
+.pricing{
+  margin-top: 80px;
+}
+
+.pricing .pricing-cards{
+  padding-top: 40px;
+}
+
+.pricing .pricing-cards .row{
+  --bs-gutter-y: 16px;
+}
+
+.pricing .single-card{
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  width: 100%;
+  padding: 32px;
+}
+
+.pricing .single-card.active{
+  border-color: var(--primary);
+  box-shadow: 0px 20px 24px -4px rgba(0, 0, 0, 0.08), 0px 8px 8px -4px rgba(0, 0, 0, 0.03);
+}
+
+.pricing .single-card .card-title{
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pricing .single-card small{
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.pricing .single-card h3{
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 80px;
+  color: var(--primary);
+  padding: 8px 0;
+}
+
+.pricing .single-card h3 small{
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.pricing .single-card h3 span{
+  font-size: 24px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.pricing .single-card p{
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.pricing .single-card .card-content{
+  padding-top: 32px;
+}
+
+.pricing .single-card h5{
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-text);
+  padding-bottom: 16px;
+}
+
+.pricing .single-card ul{
+  padding: 8px 0;
+  min-height: 200px;
+}
+
+.pricing .single-card ul li{
+  gap: 16px;
+}
+
+.pricing .single-card ul li:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.pricing .single-card ul li .icon{
+  font-size: 22px;
+  color: var(--secondary);
+}
+
+.pricing .single-card ul li p{
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.pricing .single-card a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 24px;
+}
+
+.pricing .single-card .animate-btn::before {
+  right: 100%;
+}
+
+.pricing .single-card .animate-btn:hover::before {
+  right: calc(0% - 50px);
+}
+
+@media screen and (max-width:991px){
+  .pricing{
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width:767px){
+  
+  .pricing .pricing-cards {
+    padding-top: 32px;
+  }
+
+  .pricing .single-card{
+    padding: 16px 32px;
+  }
+
+  .pricing .single-card h3{
+    font-size: 40px;
+  }
+
+  .pricing .single-card a {
+    padding: 8px 0;
+  }
+
+  .pricing .single-card .animate-btn:hover::before {
+    right: 100%;
+  }
+}
+
+/*===========================================================
+faq CSS
+=============================================================*/
+.faq{
+  background: #FAFDFF;
+}
+
+.faq .section-title{
+  padding-bottom: 80px;
+}
+
+.faq .section-title h2{
+  font-weight: 800;
+  font-size: 48px;
+  color: var(--primary-text);
+  padding-bottom: 24px;
+}
+
+.faq .section-title p{
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.6);
+}
+
+.faq .questions .row{
+  --bs-gutter-y: 64px
+}
+
+.faq .questions h3{
+  padding-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-text);
+}
+
+.faq .questions p{
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.6);
+}
+
+@media screen and (max-width:767px){
+  .faq .section-title {
+    padding-bottom: 40px;
+  }
+  .faq .section-title h2{
+    font-size: 32px;
+  }
+}
+
+/*===========================================================
+faq-contact CSS
+=============================================================*/
+.faq-contact{
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 213px;
+  overflow: hidden;
+}
+
+.faq-contact .banner-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  z-index: -1;
+}
+
+.faq-contact h2{
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--primary-text);
+}
+
+.faq-contact  p{
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.faq-contact a{
+  padding: 12px 93px;
+  border-radius: 4px;
+}
+
+.faq-contact .animate-btn::before {
+  right: 100%;
+}
+
+.faq-contact .animate-btn:hover::before {
+  right: calc(0% - 50px);
+}
+
+@media screen and (max-width:767px){
+  .faq-contact{
+    padding-top: 40px;
+    padding-bottom: 310px;
+  }
+
+  .faq-contact .banner-bg {
+    right: -70%;
+  }
+
+  .faq-contact .animate-btn:hover::before {
+    right: 100%;
+  }
+
+  .faq-contact h2 {
+    font-size: 24px;
+  }
+}

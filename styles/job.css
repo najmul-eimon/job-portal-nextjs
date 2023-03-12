@@ -1,0 +1,251 @@
+/*===========================================================
+job-banner CSS
+=============================================================*/
+.job-banner {
+  background: url('../images/job-bg.png') no-repeat center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.job-banner .filter-job {
+  margin-bottom: 34px;
+  margin-top: 110px;
+}
+
+.job-banner .popular-search,
+.job-banner .popular-search a {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(13, 13, 14, 0.6);
+}
+
+.job-banner .popular-search span {
+  font-weight: 800;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .job-banner .job-banner-bg {
+    top: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .job-banner {
+    padding-top: 100px;
+  }
+
+  .job-banner .job-banner-bg {
+    top: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .job-banner {
+    padding-top: 85px;
+    padding-bottom: 144px;
+  }
+
+  .job-banner h1 .job::after {
+    height: 6px;
+    bottom: 0;
+  }
+
+  .job-banner .filter-job {
+    margin-top: 46px;
+    margin-bottom: 20px;
+  }
+
+  .job-banner .popular-search,
+  .job-banner .popular-search a{
+    font-size: 10px;
+  }
+
+  .job-banner .popular-search span {
+    display: block;
+  }
+}
+
+/*===========================================================
+all-job CSS
+=============================================================*/
+
+
+.all-job .single-job {
+  padding: 16px;
+  border: 1px solid #E2E5F1;
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.all-job .single-job:hover {
+  box-shadow: 0px 20px 24px -4px rgba(0, 0, 0, 0.08), 0px 8px 8px -4px rgba(0, 0, 0, 0.03);
+  border-color: white;
+}
+
+.all-job .single-job .card-title {
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  min-height: 98px;
+}
+
+.all-job .single-job .card-title .icon {
+  flex-shrink: 0;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-job .single-job .card-title .icon img{
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.all-job .single-job .card-title h3 {
+  color: var(--primary-text2);
+  font-weight: 800;
+  font-size: 16px;
+  padding-bottom: 12px;
+  line-height: 24px;
+}
+
+.all-job .single-job .card-title span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(13, 13, 14, 0.4);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.all-job .single-job .job-title {
+  padding: 12px 0;
+}
+
+.all-job .single-job .job-title h4 {
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--primary-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.all-job .single-job .job-title ul {
+  gap: 24px;
+}
+
+.all-job .single-job .job-title ul li {
+  gap: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+.all-job .single-job .job-title svg path {
+  transition: all 0.3s linear;
+}
+
+.all-job .single-job:hover .job-title svg path {
+  stroke: rgba(13, 13, 14, 0.4);
+  fill: rgba(13, 13, 14, 0.02);
+}
+
+.all-job .single-job .desc {
+  padding: 12px 0;
+  font-size: 14px;
+  color: rgba(13, 13, 14, 0.8);
+}
+
+.all-job .single-job .tags {
+  gap: 4px;
+  padding: 12px 0;
+}
+
+.all-job .single-job .tags a {
+  display: inline-block;
+  padding: 4px;
+  background-color: #f4f4f4;
+  border-radius: 2px;
+  color: rgba(13, 13, 14, 0.8);
+  font-size: 12px;
+}
+
+.all-job .single-job .card-footer {
+  margin-top: 16px;
+}
+
+.all-job .single-job .card-footer button {
+  display: inline-block;
+  padding: 8px 27px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary);
+  background: #E5F4FF;
+  border-radius: 4px;
+}
+
+.all-job .single-job:hover .card-footer button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.all-job .single-job .card-footer p {
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary-text);
+}
+
+.all-job .single-job:hover .card-footer p {
+  color: var(--primary);
+}
+
+.all-job .single-job .card-footer p span {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(13, 13, 14, 0.4);
+}
+
+@media screen and (max-width: 767px) {
+  .job-banner {
+    background: url('../images/job-bg-mobile.png') no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .all-job .single-job {
+    padding: 16px 12px;
+  }
+
+  .all-job .single-job .card-title .icon {
+    height: 48px;
+    width: 48px;
+  }
+
+  .all-job .single-job .job-title {
+    padding: 8px 0;
+  }
+
+  .all-job .single-job .job-title h4 {
+    font-size: 14px;
+  }
+
+  .all-job .single-job .desc {
+    padding: 8px 0;
+  }
+
+  .all-job .single-job .card-footer button {
+    padding: 8px 16px;
+  }
+}
+
+
