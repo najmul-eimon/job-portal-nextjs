@@ -1,6 +1,6 @@
 import SectionTitle from '../../shared/SectionTitle';
 import SingleItem from './SingleItem';
-import {about} from '../../../data/aboutUs';
+import {about} from '@/data/aboutUs';
 
 const AboutUs = () => {
   return (

@@ -2,7 +2,7 @@
 job-banner CSS
 =============================================================*/
 .job-banner {
-  background: url('../images/job-bg.png') no-repeat center;
+  background: url('../public/images/job-bg.png') no-repeat center;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 60px;
@@ -217,7 +217,7 @@ all-job CSS
 
 @media screen and (max-width: 767px) {
   .job-banner {
-    background: url('../images/job-bg-mobile.png') no-repeat center;
+    background: url('../public/images/job-bg-mobile.png') no-repeat center;
     background-size: cover;
     background-position: bottom;
   }

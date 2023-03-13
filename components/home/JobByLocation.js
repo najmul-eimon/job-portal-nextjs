@@ -3,7 +3,7 @@ import { slice } from 'lodash';
 import LoadMoreButton from '../shared/LoadMoreButton';
 import SectionTitle from '../shared/SectionTitle';
 import SingleLocationCard from '../shared/SingleLocationCard';
-import {locations} from '../../data/location';
+import {locations} from '@/data/location';
 
 const JobByLocation = () => {
   const [isCompleted, setIsCompleted] = useState(false);

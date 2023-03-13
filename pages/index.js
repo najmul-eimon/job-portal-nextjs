@@ -1,5 +1,11 @@
+import AboutUs from '@/components/home/about/AboutUs';
 import Banner from '@/components/home/Banner';
+import PopularCategory from '@/components/home/category/PopularCategory';
 import Company from '@/components/home/Company';
+import JobByLocation from '@/components/home/JobByLocation';
+import LatestJob from '@/components/home/latestJob/LatestJob';
+import StartWith from '@/components/home/startWith/StartWith';
+import Blog from '@/components/shared/blog/Blog';
 import Head from 'next/head';
 
 export default function Home() {
@@ -13,6 +19,12 @@ export default function Home() {
       </Head>
       <Banner/>
       <Company/>
+      <StartWith/>
+      <PopularCategory/>
+      <AboutUs/>
+      <LatestJob/>
+      <JobByLocation/>
+      <Blog/>
     </>
   )
 }

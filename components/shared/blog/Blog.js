@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import SectionTitle from '../SectionTitle';
 import SingleBlog from "./SingleBlog";
-import {blogs} from '../../../data/blog';
+import {blogs} from '@/data/blog';
 
 const Blog = ({dataClass}) => {
 

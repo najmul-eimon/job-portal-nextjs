@@ -3,7 +3,7 @@ import { slice } from 'lodash';
 import LoadMoreButton from '../../shared/LoadMoreButton';
 import SectionTitle from '../../shared/SectionTitle';
 import SingleLatestJob from './SingleLatestJob';
-import {companies} from '../../../data/company';
+import {companies} from '@/data/company';
 
 const LatestJob = () => {
   let filterCategory = ["All", "Popular", "Recent", "Near"];

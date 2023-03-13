@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -8,7 +9,7 @@ const SingleItem = ({data}) => {
     <div className="col-sm-6 col-md-3">
       <div className="single-counter text-center">
         <div className="icon-box">
-          <img src={icon} alt="Icon"/>
+          <Image src={icon} alt="Icon" width={40} height={40}/>
         </div>
         <h3>
           <CountUp end={count >= 1000 ? count/1000 : count}>

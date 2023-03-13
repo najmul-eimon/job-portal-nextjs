@@ -1,34 +1,9 @@
-import blog1 from '../assets/images/blog/blog1.png';
-import blog2 from '../assets/images/blog/blog2.png';
-import blog3 from '../assets/images/blog/blog3.png';
-import blog4 from '../assets/images/blog/blog4.png';
-import blog5 from '../assets/images/blog/blog5.png';
-import blog6 from '../assets/images/blog/blog6.png';
-import blog7 from '../assets/images/blog/blog7.png';
-import blog8 from '../assets/images/blog/blog8.png';
-import blog9 from '../assets/images/blog/blog9.png';
-import blog10 from '../assets/images/blog/blog10.png';
-import blog11 from '../assets/images/blog/blog11.png';
-import featuredBlog from '../assets/images/blog/featured.png';
-
-import avatar1 from '../assets/images/blog/avatar1.png';
-import avatar2 from '../assets/images/blog/avatar2.png';
-import avatar3 from '../assets/images/blog/avatar3.png';
-import avatar4 from '../assets/images/blog/avatar4.png';
-import avatar5 from '../assets/images/blog/avatar5.png';
-import avatar6 from '../assets/images/blog/avatar6.png';
-import avatar7 from '../assets/images/blog/avatar7.png';
-import avatar8 from '../assets/images/blog/avatar8.png';
-import avatar9 from '../assets/images/blog/avatar9.png';
-import avatar10 from '../assets/images/blog/avatar10.png';
-import avatar11 from '../assets/images/blog/avatar11.png';
-
 export const blogs = [
   {
     id: "blog1",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Graphic",
-    image: featuredBlog,
+    image: "/images/blog/featured.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -37,7 +12,7 @@ export const blogs = [
     ],
     status: "featured",
     author: "Darrell Steward",
-    authorImg: avatar1,
+    authorImg: "/images/blog/avatar1.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -60,7 +35,7 @@ export const blogs = [
     id: "blog2",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "UI/UI",
-    image: blog2,
+    image: "/images/blog/blog2.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -69,7 +44,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar2,
+    authorImg: "/images/blog/avatar2.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -92,7 +67,7 @@ export const blogs = [
     id: "blog3",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "AR/VR",
-    image: blog3,
+    image: "/images/blog/blog3.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -101,7 +76,7 @@ export const blogs = [
     ],
     status: "recent",
     author: "Darrell Steward",
-    authorImg: avatar3,
+    authorImg: "/images/blog/avatar3.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -124,7 +99,7 @@ export const blogs = [
     id: "blog4",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Tech",
-    image: blog4,
+    image: "/images/blog/blog4.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -133,7 +108,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar4,
+    authorImg: "/images/blog/avatar4.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -156,7 +131,7 @@ export const blogs = [
     id: "blog5",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "IT",
-    image: blog5,
+    image: "/images/blog/blog5.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -165,7 +140,7 @@ export const blogs = [
     ],
     status: "recent",
     author: "Darrell Steward",
-    authorImg: avatar5,
+    authorImg: "/images/blog/avatar5.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -188,7 +163,7 @@ export const blogs = [
     id: "blog6",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Development",
-    image: blog6,
+    image: "/images/blog/blog6.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -197,7 +172,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar6,
+    authorImg: "/images/blog/avatar6.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -220,7 +195,7 @@ export const blogs = [
     id: "blog7",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Design",
-    image: blog7,
+    image: "/images/blog/blog7.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -229,7 +204,7 @@ export const blogs = [
     ],
     status: "recent",
     author: "Darrell Steward",
-    authorImg: avatar7,
+    authorImg: "/images/blog/avatar7.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -252,7 +227,7 @@ export const blogs = [
     id: "blog8",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Graphic",
-    image: blog8,
+    image: "/images/blog/blog8.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -261,7 +236,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar8,
+    authorImg: "/images/blog/avatar8.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -284,7 +259,7 @@ export const blogs = [
     id: "blog9",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "UI/UX",
-    image: blog9,
+    image: "/images/blog/blog9.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -293,7 +268,7 @@ export const blogs = [
     ],
     status: "recent",
     author: "Darrell Steward",
-    authorImg: avatar9,
+    authorImg: "/images/blog/avatar9.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -316,7 +291,7 @@ export const blogs = [
     id: "blog10",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Tech",
-    image: blog10,
+    image: "/images/blog/blog10.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -325,7 +300,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar10,
+    authorImg: "/images/blog/avatar10.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -348,7 +323,7 @@ export const blogs = [
     id: "blog11",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Design",
-    image: blog11,
+    image: "/images/blog/blog11.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -357,7 +332,7 @@ export const blogs = [
     ],
     status: "recent",
     author: "Darrell Steward",
-    authorImg: avatar11,
+    authorImg: "/images/blog/avatar11.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {
@@ -380,7 +355,7 @@ export const blogs = [
     id: "blog12",
     title: "21 Job Interview Tips: How To Make a Great Impression",
     category: "Development",
-    image: blog1,
+    image: "/images/blog/blog1.png",
     tags: [
       "Graphics",
       "UI/UX",
@@ -389,7 +364,7 @@ export const blogs = [
     ],
     status: "popular",
     author: "Darrell Steward",
-    authorImg: avatar5,
+    authorImg: "/images/blog/avatar5.png",
     date: "11 Jan 2022",
     time: "5 min",
     description: {

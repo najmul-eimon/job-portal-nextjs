@@ -1,13 +1,14 @@
-import { Link } from 'react-router-dom';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const SingleBlog = ({data, dataClass}) => {
   const {id, image, category, title, description, author, authorImg, date, time} = data;
 
   return (
     <div className={dataClass ? dataClass : ''}>
-      <Link to={`/blog/${id}`} className="single-blog">
+      <Link href={`/blog/${id}`} className="single-blog">
         <div className="image">
-          <img src={image} alt="Blog"/>
+          <Image src={image} alt="Blog"width={324} height={232} />
         </div>
 
         <span>{category}</span>
@@ -16,7 +17,7 @@ const SingleBlog = ({data, dataClass}) => {
         
         <div className="blog-author">
           <div className="author">
-            <img src={authorImg} alt="Avatar"/>
+            <Image src={authorImg} alt="Avatar" width={41} height={40}/>
           </div>
           <div>
             <h4>{author}</h4>

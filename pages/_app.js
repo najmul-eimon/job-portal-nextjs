@@ -6,6 +6,11 @@ import '@/styles/globals.css';
 import '@/styles/navigation.css';
 import '@/styles/home.css';
 import '@/styles/filter.css';
+import '@/styles/job-location.css';
+import '@/styles/blog.css';
+import '@/styles/job.css';
+import '@/styles/advance-filter.css';
+import '@/styles/filter-container.css';
 
 export default function App({ Component, pageProps }) {
   return (

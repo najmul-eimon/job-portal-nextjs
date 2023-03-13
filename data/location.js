@@ -1,14 +1,7 @@
-import france from '../assets/images/job-location/france.png';
-import london from '../assets/images/job-location/london.png';
-import newYork from '../assets/images/job-location/new-york.png';
-import england from '../assets/images/job-location/england.png';
-import paris from '../assets/images/job-location/paris.png';
-import usa from '../assets/images/job-location/usa.png';
-
 export const locations = [
   {
     id: "loc1",
-    image: france,
+    image: "/images/job-location/france.png",
     location: "Parish, France",
     vacancy: "15",
     company: "5",
@@ -16,7 +9,7 @@ export const locations = [
   },
   {
     id: "loc2",
-    image: london,
+    image: "/images/job-location/london.png",
     location: "London, England",
     vacancy: "15",
     company: "5",
@@ -24,7 +17,7 @@ export const locations = [
   },
   {
     id: "loc3",
-    image: newYork,
+    image: "/images/job-location/new-york.png",
     location: "New York, USA",
     vacancy: "15",
     company: "5",
@@ -32,7 +25,7 @@ export const locations = [
   },
   {
     id: "loc4",
-    image: england,
+    image: "/images/job-location/england.png",
     location: "California, USA",
     vacancy: "15",
     company: "5",
@@ -40,7 +33,7 @@ export const locations = [
   },
   {
     id: "loc5",
-    image: paris,
+    image: "/images/job-location/paris.png",
     location: "Georgia, USA",
     vacancy: "15",
     company: "5",
@@ -48,7 +41,7 @@ export const locations = [
   },
   {
     id: "loc6",
-    image: usa,
+    image: "/images/job-location/usa.png",
     location: "Washington, USA",
     vacancy: "15",
     company: "5",

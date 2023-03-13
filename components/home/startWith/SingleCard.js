@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -7,7 +8,7 @@ const SingleCard = ({data}) => {
   return (
     <div className={`single-card ${id === 's1' ? 'job' : id === 's2' ? 'hired' : id === 's3' ? 'companies' : ''}`}>
       <span className="icon-box">
-        <img src={icon} alt="Icon"/>
+        <Image src={icon} alt="Icon" width={43} height={43}/>
       </span>
       <div>
         <h2>

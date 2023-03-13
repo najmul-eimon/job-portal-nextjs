@@ -179,6 +179,7 @@ a:focus {
   font-weight: 500;
   z-index: 10;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .animate-btn::before {

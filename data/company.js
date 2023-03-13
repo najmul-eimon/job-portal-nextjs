@@ -1,15 +1,8 @@
-import tbde from '../assets/images/company/tbde.png';
-import bysl from '../assets/images/company/bysl.png';
-import fanta from '../assets/images/company/fanta.png';
-import slack from '../assets/images/company/slack.png';
-import pepsi from '../assets/images/company/pepsi.png';
-import audi from '../assets/images/company/audi.png';
-
 export const companies = [
   {
     id: "com1",
     name: "Infrastructure Development Company Limited (IDCOL)",
-    image: tbde,
+    image: "/images/company/tbde.png",
     location: "New York, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -156,7 +149,7 @@ export const companies = [
   {
     id: "com2",
     name: "BYSL Global Technology LTD",
-    image: bysl,
+    image: "/images/company/bysl.png",
     location: "Parish, France",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -303,7 +296,7 @@ export const companies = [
   {
     id: "com3",
     name: "Fanta Group of Technology LTD",
-    image: fanta,
+    image: "/images/company/fanta.png",
     location: "London, England",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -450,7 +443,7 @@ export const companies = [
   {
     id: "com4",
     name: "Slack Development Technology LTD",
-    image: slack,
+    image: "/images/company/slack.png",
     location: "California, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -597,7 +590,7 @@ export const companies = [
   {
     id: "com5",
     name: "Pepsi Development Technology LTD",
-    image: pepsi,
+    image: "/images/company/pepsi.png",
     location: "Georgia, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -744,7 +737,7 @@ export const companies = [
   {
     id: "com6",
     name: "Audi Development Technology LTD",
-    image: audi,
+    image: "/images/company/audi.png",
     location: "Washington, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -891,7 +884,7 @@ export const companies = [
   {
     id: "com7",
     name: "Infrastructure Development Company Limited (IDCOL)",
-    image: tbde,
+    image: "/images/company/tbde.png",
     location: "New York, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -1038,7 +1031,7 @@ export const companies = [
   {
     id: "com8",
     name: "BYSL Global Technology LTD",
-    image: bysl,
+    image: "/images/company/bysl.png",
     location: "Parish, France",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -1185,7 +1178,7 @@ export const companies = [
   {
     id: "com9",
     name: "Fanta Group of Technology LTD",
-    image: fanta,
+    image: "/images/company/fanta.png",
     location: "London, England",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -1332,7 +1325,7 @@ export const companies = [
   {
     id: "com10",
     name: "Slack Development Technology LTD",
-    image: slack,
+    image: "/images/company/slack.png",
     location: "California, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -1479,7 +1472,7 @@ export const companies = [
   {
     id: "com11",
     name: "Pepsi Development Technology LTD",
-    image: pepsi,
+    image: "/images/company/pepsi.png",
     location: "Georgia, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
@@ -1626,7 +1619,7 @@ export const companies = [
   {
     id: "com12",
     name: "Audi Development Technology LTD",
-    image: audi,
+    image: "/images/company/audi.png",
     location: "Washington, USA",
     address: "L/36, S/1, Down street, New York, USA",
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",

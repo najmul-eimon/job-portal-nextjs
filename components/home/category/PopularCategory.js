@@ -3,7 +3,7 @@ import SectionTitle from '../../shared/SectionTitle';
 import SingleCategory from './SingleCategory';
 import LoadMoreButton from '../../shared/LoadMoreButton';
 import { slice } from 'lodash';
-import {categories} from '../../../data/category';
+import {categories} from '@/data/category';
 
 const PopularCategory = () => {
   const [isCompleted, setIsCompleted] = useState(false);

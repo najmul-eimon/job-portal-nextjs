@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import {industry, position, experience, jobType} from '../../../data/filterCriteria';
+import {industry, position, experience, jobType} from '@/data/filterCriteria';
 import {CiSliderHorizontal} from 'react-icons/ci';
-import MultiRangeSlider from "multi-range-slider-react";
+import ReactSlider from 'react-slider';
 import AccordionCard from './AccordionCard';
 
 const AdvanceFilter = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
-  const [minValue, set_minValue] = useState(5);
-  const [maxValue, set_maxValue] = useState(25);
+  // const [min, setMin] = useState(5);
+  // const [max, setMax] = useState(25);
 
-  const handleInput = (e) => {
-    set_minValue(e.minValue);
-    set_maxValue(e.maxValue);
-  };
+  // const handleInput = (min, max) => {
+  //   setMin(min);
+  //   setMax(max);
+  // };
 
   const handleDropdown = () => {
     setOpenDropdown(!openDropdown)
@@ -41,22 +41,17 @@ const AdvanceFilter = () => {
                 <Accordion.Header>Salary Range</Accordion.Header>
                 <Accordion.Body>
                   <div className="salary">
-                    <MultiRangeSlider
-                        ClassName="milti-range-slider"
-                        min={0}
-                        max={100}
-                        step={5}
-                        ruler={false}
-                        preventWheel={false}
-                        label={false}
-                        minCaption={`$${minValue}K`}
-                        maxCaption={`$${maxValue}K`}
-                        minValue={minValue}
-                        maxValue={maxValue}
-                        onInput={(e) => {
-                          handleInput(e);
-                        }}
-                      />
+                  <ReactSlider
+                      className="salary-slider"
+                      thumbClassName="salary-thumb"
+                      trackClassName="salary-track"
+                      defaultValue={[0, 100]}
+                      ariaLabel={['Lower thumb', 'Upper thumb']}
+                      ariaValuetext={state => `Thumb value ${state.valueNow}`}
+                      renderThumb={(props, state) => <div {...props}>${state.valueNow}k</div>}
+                      pearling
+                      minDistance={10}
+                  />
                   </div>
                 </Accordion.Body>
               </Accordion.Item>
