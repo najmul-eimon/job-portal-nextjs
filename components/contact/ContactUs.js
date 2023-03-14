@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const ContactUs = () => {
   return (
@@ -31,7 +31,7 @@ const ContactUs = () => {
                 <label htmlFor="chk" className="check-container">
                   <input type="checkbox" className="input-check" id="chk"/>
                   <span className="checkmark"></span>
-                  <span>I accept the <Link to="/">Terms</Link></span>
+                  <span>I accept the <Link href="/">Terms</Link></span>
                 </label>
               </div>
 

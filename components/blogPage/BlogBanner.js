@@ -1,4 +1,4 @@
-import { blogBanner } from '../../assets/images/svg/blogBanner';
+import { blogBanner } from '@/public/images/svg/blogBanner';
 
 const BlogBanner = () => {
   return (

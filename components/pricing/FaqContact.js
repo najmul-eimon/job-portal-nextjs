@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import {banner} from '../../assets/images/svg/faqContactBanner';
+import Link from 'next/link';
+import {banner} from '@/public/images/svg/faqContactBanner';
 
 const FaqContact = () => {
   return (
@@ -9,7 +9,7 @@ const FaqContact = () => {
           <div className="col-lg-12">
             <h2>Still have questions?</h2>
             <p>Support details to capture customers that might be on the fence.</p>
-            <Link to='/contact' className="animate-btn animate-btn-fill">Contact us</Link>
+            <Link href='/contact' className="animate-btn animate-btn-fill">Contact us</Link>
           </div>
         </div>
       </div>

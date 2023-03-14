@@ -1,9 +1,9 @@
-import banner from '../../assets/images/blog-details-banner.png'
+import Image from "next/image";
 
 const BlogDetailBanner = () => {
   return (
     <section className="blog-details-banner">
-      <img src={banner} alt="Banner"/>
+      <Image src="/images/blog-details-banner.png" alt="Banner" width={1920} height={600}/>
     </section>
   )
 }

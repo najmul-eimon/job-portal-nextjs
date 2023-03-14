@@ -48,7 +48,7 @@ const AllJob = () => {
           <div className="col-lg-12">
             {/* page count */}
             <div className="page-count">
-              <p>Showing <span>01-{initialJobs.length < 10 ? '0' + initialJobs.length : initialJobs.length}</span> of <span>{allJobs.length < 10 ? '0' + allJobs.length : allJobs.length} </span> jobs</p>
+              <p>Showing <span>01-{initialJobs.length < 10 ? '0' + initialJobs.length : initialJobs.length}</span> of <span>{filterAllJobs.length < 10 ? '0' + filterAllJobs.length : filterAllJobs.length} </span> jobs</p>
             </div>
 
             {/* filter-container */}

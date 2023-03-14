@@ -37,7 +37,7 @@ const Menubar = () => {
           <div className="col-lg-12">
             <Navbar expand="lg">
               <Link className="navbar-brand" href="/">
-                <Image src="images/svg/logo.svg" alt="Logo" width={97} height={12}/>
+                <Image src="/images/svg/logo.svg" alt="Logo" width={97} height={12}/>
               </Link>
               <Navbar.Toggle aria-controls="basic-navbar-nav" >
                 <span className="navbar-toggler-icon">
@@ -53,7 +53,7 @@ const Menubar = () => {
                   {
                     menuItems.map(({id, name, link}) => (
                       <li key={id} className="nav-item">
-                        <Link className={`nav-link ${basePath === link ? 'active' : ''}`} href={link} onClick={handleClick}>{name}</Link>
+                        <Link className={`nav-link ${basePath === link.split('/')[1] ? 'active' : ''}`} href={link} onClick={handleClick}>{name}</Link>
                       </li>
                     ))
                   }

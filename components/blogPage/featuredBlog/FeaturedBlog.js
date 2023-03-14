@@ -1,4 +1,4 @@
-import {blogs} from '../../../data/blog';
+import {blogs} from '@/data/blog';
 import FeaturedBlogCard from './FeaturedBlogCard';
 
 const FeaturedBlog = () => {

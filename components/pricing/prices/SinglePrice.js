@@ -1,6 +1,6 @@
 import {FiCheck} from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-import arrow from '../../../assets/images/svg/navigation-arrow.svg'
+import Link from 'next/link';
+import Image from 'next/image';
 
 const SinglePrice = ({data}) => {
   const {title, monthlyAmount, yearlyAmount, postAmount, packages} = data;
@@ -26,8 +26,8 @@ const SinglePrice = ({data}) => {
               ))
             }
           </ul>
-          <Link to="/pricing" className="animate-btn animate-btn-fill">
-            <img src={arrow} alt="Arrow"/>
+          <Link href="/pricing" className="animate-btn animate-btn-fill">
+            <Image src="/images/svg/navigation-arrow.svg" width={24} height={24} alt="Arrow"/>
             Get started
           </Link>
         </div>

@@ -9,28 +9,28 @@ const FooterTop = () => {
           <div className="col-md-6 col-lg-5">
             <div className="footer-about">
               <Link href="/" className="footer-logo">
-                <Image src='images/svg/footer-logo.svg' alt="Logo" width={193} height={24}/>
+                <Image src='/images/svg/footer-logo.svg' alt="Logo" width={193} height={24}/>
               </Link>
               <p className="about-company">21 Job Interview Tips: How To Make a Great Impression.Our mission is to create the world&rsquos most sustainable healthcare company.</p>
               <ul className="social">
                 <li>
                   <a href="#!">
-                    <Image src='images/svg/fb.svg' width={21} height={20} alt="Facebook"/>
+                    <Image src='/images/svg/fb.svg' width={21} height={20} alt="Facebook"/>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <Image src='images/svg/yt.svg' width={21} height={20} alt="Youtube"/>
+                    <Image src='/images/svg/yt.svg' width={21} height={20} alt="Youtube"/>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <Image src='images/svg/dribbble.svg' width={21} height={20} alt="Dribbble"/>
+                    <Image src='/images/svg/dribbble.svg' width={21} height={20} alt="Dribbble"/>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <Image src='images/svg/whatsapp.svg' width={21} height={20} alt="Whatsapp"/>
+                    <Image src='/images/svg/whatsapp.svg' width={21} height={20} alt="Whatsapp"/>
                   </a>
                 </li>
               </ul>

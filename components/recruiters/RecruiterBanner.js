@@ -1,5 +1,3 @@
-import React from 'react'
-
 const RecruiterBanner = () => {
   return (
     <section className="recruiter-banner">

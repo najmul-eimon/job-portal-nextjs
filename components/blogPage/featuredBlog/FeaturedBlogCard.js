@@ -1,12 +1,13 @@
-import { Link } from 'react-router-dom';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const FeaturedBlogCard = ({featuredBlog}) => {
   const {id, image, category, title, description, author, authorImg, date, time} = featuredBlog;
 
   return (
-    <Link to={`/blog/${id}`} className="blog-card">
+    <Link href={`/blog/${id}`} className="blog-card">
       <div className="image">
-        <img src={image} alt="Blog"/>
+        <Image src={image} alt="Blog" width={546} height={404}/>
       </div>
 
       <div>
@@ -15,7 +16,7 @@ const FeaturedBlogCard = ({featuredBlog}) => {
         <p>{description.introduction.slice(0,1)[0].length <= 160 ? description.introduction.slice(0,1)[0] : `${description.introduction.slice(0,1)[0].substring(0,160)}...`}</p>
         <div className="blog-author">
           <div className="author">
-            <img src={authorImg} alt="Avatar"/>
+            <Image src={authorImg} alt="Avatar" width={41} height={40}/>
           </div>
           <div>
             <h4>{author}</h4>

@@ -1,6 +1,6 @@
 import SectionTitle from '../../shared/SectionTitle';
 import SinglePrice from './SinglePrice';
-import {prices} from '../../../data/price';
+import {prices} from '@/data/price';
 
 const Price = () => {
   return (

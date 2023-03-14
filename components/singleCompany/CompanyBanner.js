@@ -1,6 +1,4 @@
-import banner from '../../assets/images/company-banner.jpg';
-import mapPin from '../../assets/images/svg/map-pin.svg';
-import phone from '../../assets/images/svg/phone.svg';
+import Image from 'next/image';
 import {shareIcons} from '../../data/aboutUs';
 
 const CompanyBanner = ({singleCompany}) => {
@@ -10,7 +8,7 @@ const CompanyBanner = ({singleCompany}) => {
     <section className="company-banner">
       {/* banner image */}
       <div className="banner-img">
-        <img src={banner} alt="Banner"/>
+        <Image src="/images/company-banner.jpg" alt="Banner" width={1920} height={600}/>
       </div>
 
       {/* about company */}
@@ -23,12 +21,12 @@ const CompanyBanner = ({singleCompany}) => {
                 <div className="col-md-9 col-lg-10">
                   <div className="heading">
                     <div className="logo">
-                      <img src={image} alt="Logo"/>
+                      <Image src={image} alt="Logo" width={142} height={142}/>
                     </div>
                     <div className="company-name">
                       <h2>{name}</h2>
                       <span>
-                        <img src={mapPin} alt="Map Icon"/>
+                        <Image src="/images/svg/map-pin.svg" alt="Map Icon" width={21} height={20}/>
                         {location}
                       </span>
                     </div>
@@ -38,7 +36,7 @@ const CompanyBanner = ({singleCompany}) => {
                 <div className="col-md-3 col-lg-2">
                   <div className="contact-phn">
                     <a href="tel:123456789" className="contact-btn animate-btn animate-btn-fill">
-                      <img src={phone} alt="Icon"/>
+                      <Image src="/images/svg/phone.svg" alt="Icon" width={24} height={24}/>
                       Contact
                     </a>
                   </div>
@@ -57,7 +55,7 @@ const CompanyBanner = ({singleCompany}) => {
                       shareIcons.map(({id, icon}) => (
                         <li key={id}>
                           <a href="#!">
-                            <img src={icon} alt="Icon"/>
+                            <Image src={icon} alt="Icon" width={24} height={24}/>
                           </a>
                         </li>
                       ))

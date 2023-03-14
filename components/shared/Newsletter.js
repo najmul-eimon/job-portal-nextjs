@@ -1,4 +1,4 @@
-import newsletter from '../../assets/images/newsletter.png'
+import Image from 'next/image';
 
 const Newsletter = () => {
   return (
@@ -19,7 +19,7 @@ const Newsletter = () => {
 
           <div className="col-sm-5 col-md-6 col-xl-5">
             <div className="text-end image">
-              <img src={newsletter} alt="Newsletter"/>
+              <Image src='/images/newsletter.png' alt="Newsletter" width={337} height={336}/>
             </div>
           </div>
         </div>

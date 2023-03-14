@@ -1,5 +1,4 @@
-import mapIcon from '../../../assets/images/svg/map-large.svg';
-import clockIcon from '../../../assets/images/svg/clock-grey.svg';
+import Image from 'next/image';
 
 const Locations = () => {
   return (
@@ -14,21 +13,21 @@ const Locations = () => {
 
         <ul>
           <li>
-            <img src={mapIcon} alt="Icon"/>
+            <Image src="/images/svg/map-large.svg" alt="Icon" width={24} height={24}/>
             <div>
               <span>Company field</span>
               <p>Technology</p>
             </div>
           </li>
           <li>
-            <img src={mapIcon} alt="Icon"/>
+            <Image src="/images/svg/map-large.svg" alt="Icon" width={24} height={24}/>
             <div>
               <span>Location</span>
               <p>L/36, S/1, Down street, New York, USA</p>
             </div>
           </li>
           <li>
-            <img src={clockIcon} alt="Icon"/>
+            <Image src="/images/svg/clock-grey.svg" alt="Icon" width={24} height={24}/>
             <div>
               <span>Member since</span>
               <p>Jul 2018</p>

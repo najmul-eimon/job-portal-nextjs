@@ -4,7 +4,7 @@ recruiter-banner CSS
 .recruiter-banner{
   padding-top: 150px;
   padding-bottom: 310px;
-  background: url('../images/recruiter-bg.png') no-repeat center;
+  background: url('../public/images/recruiter-bg.png') no-repeat center;
   background-size: cover;
 }
 

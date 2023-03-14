@@ -1,12 +1,8 @@
-import { useParams } from 'react-router-dom';
-import {blogs} from '../../data/blog';
+import Image from 'next/image';
 import { shareIcons } from '../../data/aboutUs';
 
-const BlogDetails = () => {
-  const {blogId} = useParams();
-
-  const SingleBlog = blogs.find((blog) => blog.id === blogId);
-  const {title, author, authorImg, date, time, image, description, tags} = SingleBlog;
+const BlogDetails = ({singleBlog}) => {
+  const {title, author, authorImg, date, time, image, description, tags} = singleBlog;
 
   return (
     <section className="blog-details">
@@ -19,7 +15,7 @@ const BlogDetails = () => {
             {/* blog author */}
             <div className="blog-author">
               <div className="author">
-                <img src={authorImg} alt="Avatar"/>
+                <Image src={authorImg} alt="Avatar" width={40} height={40}/>
               </div>
               <div>
                 <h4>{author}</h4>
@@ -32,16 +28,16 @@ const BlogDetails = () => {
 
             {/* introduction */}
             <h3>Introduction</h3>
-            <p>{description.introduction[0]}</p>
+            <p>{description?.introduction[0]}</p>
             
             <div className="blog-image">
               <div className="row align-items-center row-gutter">
                 <div className="col-md-6 col-lg-7">
-                  <blockquote className="varient1">{description.introduction[1]}</blockquote>
+                  <blockquote className="varient1">{description?.introduction[1]}</blockquote>
                 </div>
                 <div className="col-md-6 col-lg-5">
                   <figure>
-                    <img src={image} alt="Blog Details"/>
+                    <Image src={image} alt="Blog Details" width={324} height={232}/>
                     <figcaption>Image caption goes here</figcaption>
                   </figure>
                 </div>
@@ -49,15 +45,15 @@ const BlogDetails = () => {
             </div>
 
             {/* blockquote */}
-            <blockquote className="varient2">{description.introduction[2]}</blockquote>
-            <p>{description.introduction[3]}</p>
+            <blockquote className="varient2">{description?.introduction[2]}</blockquote>
+            <p>{description?.introduction[3]}</p>
           
-            <blockquote className="varient3">"{description.introduction[4]}"</blockquote>
-            <p>{description.introduction[5]}</p>
+            <blockquote className="varient3">&quote;{description?.introduction[4]}&quote;</blockquote>
+            <p>{description?.introduction[5]}</p>
             
             {/* Conclusion */}
             <h3>Conclusion</h3>
-            {description.concliusion.map((item, index) => <p key={index}>{item}</p>)}
+            {description?.concliusion.map((item, index) => <p key={index}>{item}</p>)}
 
 
             <div className="share">
@@ -84,7 +80,7 @@ const BlogDetails = () => {
                 <div className="col-md-6 order-1 order-md-2">
                   <ul className="d-flex align-items-center tags">
                     {
-                      tags.map((tag, i) => <li key={i}><a href="#!">{tag}</a></li>)
+                      tags?.map((tag, i) => <li key={i}><a href="#!">{tag}</a></li>)
                     }
                   </ul>
                 </div>

@@ -7,21 +7,21 @@ export const menuItems = [
   {
     id: 2,
     name: 'Find a job',
-    link: 'job'
+    link: '/job'
   },
   {
     id: 3,
     name: 'Recruiters',
-    link: 'recruiters'
+    link: '/recruiters'
   },
   {
     id: 4,
     name: 'Blog',
-    link: 'blog'
+    link: '/blog'
   },
   {
     id: 5,
     name: 'Contact Us',
-    link: 'contact'
+    link: '/contact'
   },
 ]
