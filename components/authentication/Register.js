@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import SectionTitle from '../shared/SectionTitle'
 import InputBox from './InputBox'
 import SocialButton from './SocialButton'
@@ -30,7 +30,7 @@ const Register = () => {
                 <label htmlFor="chk" className="check-container">
                   <input type="checkbox" className="input-check" id="chk"/>
                   <span className="checkmark"></span>
-                  <span>I accept the <Link to="/">Terms</Link></span>
+                  <span>I accept the <Link href="/">Terms</Link></span>
                 </label>
               </div>
 
@@ -39,7 +39,7 @@ const Register = () => {
               </div>
 
               <div className="input-box">
-                <p>Already have an account? <Link to="/login">Sign In</Link></p>
+                <p>Already have an account? <Link href="/login">Sign In</Link></p>
               </div>
             </form>
           </div>

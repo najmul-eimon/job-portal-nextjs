@@ -17,7 +17,7 @@ const Faq = () => {
               <div className="row">
                 {
                   faq.map(({id, question, answer}) => (
-                    <div key={id} class="col-lg-6">
+                    <div key={id} className="col-lg-6">
                       <h3>{question}</h3>
                       <p>{answer}</p>
                     </div>

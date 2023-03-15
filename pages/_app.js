@@ -17,6 +17,7 @@ import '@/styles/company-details.css';
 import '@/styles/blog-page.css';
 import '@/styles/contact.css';
 import '@/styles/pricing.css';
+import '@/styles/authentication.css';
 import '@/styles/not-found.css';
 
 export default function App({ Component, pageProps }) {

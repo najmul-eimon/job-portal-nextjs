@@ -1,5 +1,5 @@
 import SectionTitle from '../shared/SectionTitle'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import InputBox from './InputBox'
 import SocialButton from './SocialButton'
 
@@ -28,7 +28,7 @@ const Login = () => {
                   <span className="checkmark"></span>
                   <span>Remember me</span>
                 </label>
-                <Link to="/" className="forgot-pass">Forgot Password?</Link>
+                <Link href="/" className="forgot-pass">Forgot Password?</Link>
               </div>
 
               <div className="input-box">
@@ -36,7 +36,7 @@ const Login = () => {
               </div>
 
               <div className="input-box">
-                <p>No account? <Link to="/register">Register Now</Link></p>
+                <p>No account? <Link href="/register">Register Now</Link></p>
               </div>
             </form>
           </div>

@@ -1,4 +1,4 @@
-import {authenticationBg} from '../../assets/images/svg/authentication';
+import {authenticationBg} from '@/public/images/svg/authentication';
 
 const BgSection = () => {
   return (
