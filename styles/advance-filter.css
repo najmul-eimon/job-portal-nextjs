@@ -250,6 +250,7 @@ advance filter CSS
   width: 10px;
   height: 10px;
   background-color: white;
+  z-index: -1;
 }
 
 .salary .salary-track-1{
