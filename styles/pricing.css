@@ -256,4 +256,10 @@ faq-contact CSS
   .faq-contact h2 {
     font-size: 24px;
   }
+
+  .faq-contact a{
+    padding: 8px 0;
+    border-radius: 4px;
+    width: 100%;
+  }
 }

@@ -2,6 +2,8 @@ import { companies } from '@/data/company';
 import Head from 'next/head';
 import CompanyBanner from '@/components/singleCompany/CompanyBanner';
 import CompanyDetails from '@/components/singleCompany/companyDetails/CompanyDetails';
+import CompanyLocation from '@/components/singleCompany/CompanyLocation';
+import Newsletter from '@/components/shared/Newsletter';
 
 const SingleCompany = ({singleCompany}) => {
   return (
@@ -20,6 +22,8 @@ const SingleCompany = ({singleCompany}) => {
       
       <CompanyBanner singleCompany={singleCompany}/>
       <CompanyDetails singleCompany={singleCompany}/>
+      <CompanyLocation/>
+      <Newsletter/>
     </>
   )
 }

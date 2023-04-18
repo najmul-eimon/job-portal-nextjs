@@ -2,8 +2,8 @@
 banner CSS
 =============================================================*/
 .banner {
-  min-height: 100vh;
-  height: auto;
+  /* min-height: 100vh; */
+  height: 993px;
   width: 100%;
   position: relative;
   padding-top: 150px;
@@ -44,9 +44,15 @@ banner CSS
 }
 
 
+@media (min-width: 992px) and (max-width: 1399px) {
+  .banner{
+    height: 800px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .banner {
     padding-top: 100px;
+    height: 700px;
   }
 
   .banner .main-heading .border-text::after {
@@ -57,6 +63,7 @@ banner CSS
 @media screen and (max-width: 767px) {
   .banner {
     padding-top: 85px;
+    height: 660px;
   }
 
   .banner .explore-heading{
