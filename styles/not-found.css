@@ -2,7 +2,8 @@
 not-found CSS
 =============================================================*/
 .not-found{
-  height: 100vh;
+  min-height: 100vh;
+  height: 1000px;
   padding-top: 160px;
   position: relative;
   overflow: hidden;
@@ -140,6 +141,12 @@ not-found CSS
   flex-shrink: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1399px) {
+  .not-found{
+    height: 800px;
+  }
+}
+
 @media (min-width: 1100px) and (max-width:1399px) {
   .not-found .box{
     max-width: 600px;
@@ -161,9 +168,24 @@ not-found CSS
   }
 }
 
-@media screen and (max-width:991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .not-found {
+    height: 700px;
+  }
+
+  .not-found .box{
+    max-width: 500px;
+  }
+
+  .not-found .box .four{
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:767px) {
   .not-found{
     padding-top: 80px;
+    height: 800px;
   }
 
   .not-found .box{

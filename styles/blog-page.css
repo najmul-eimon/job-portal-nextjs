@@ -100,7 +100,7 @@ blog-banner CSS
 @media screen and (max-width: 767px) {
   .blog-banner {
     padding-top: 94px;
-    padding-bottom: 230px;
+    padding-bottom: 300px;
   }
 
   .blog-banner .banner-bg {

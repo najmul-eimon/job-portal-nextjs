@@ -2,7 +2,7 @@ export const locations = [
   {
     id: "loc1",
     image: "/images/job-location/france.png",
-    location: "Parish, France",
+    location: "Paris, France",
     vacancy: "15",
     company: "5",
     status: "popular"
@@ -21,7 +21,7 @@ export const locations = [
     location: "New York, USA",
     vacancy: "15",
     company: "5",
-    status: "Treading"
+    status: "Trending"
   },
   {
     id: "loc4",
@@ -45,6 +45,6 @@ export const locations = [
     location: "Washington, USA",
     vacancy: "15",
     company: "5",
-    status: "Treading"
+    status: "Trending"
   }
 ]

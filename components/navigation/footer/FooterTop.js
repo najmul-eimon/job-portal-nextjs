@@ -11,7 +11,7 @@ const FooterTop = () => {
               <Link href="/" className="footer-logo">
                 <Image src='/images/svg/footer-logo.svg' alt="Logo" width={193} height={24}/>
               </Link>
-              <p className="about-company">21 Job Interview Tips: How To Make a Great Impression.Our mission is to create the world&rsquos most sustainable healthcare company.</p>
+              <p className="about-company">21 Job Interview Tips: How To Make a Great Impression. Our mission is to create the world&apos;s most sustainable healthcare company.</p>
               <ul className="social">
                 <li>
                   <a href="#!">
@@ -56,7 +56,7 @@ const FooterTop = () => {
               </div>
               <ul className="footer-links">
                 <li><Link href="">Privacy</Link></li>
-                <li><Link href="">Term & Conditions</Link></li>
+                <li><Link href="">Terms & Conditions</Link></li>
                 <li><Link href="/pricing">FAQ</Link></li>
               </ul>
             </div>

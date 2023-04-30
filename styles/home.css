@@ -49,6 +49,7 @@ banner CSS
     height: 800px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .banner {
     padding-top: 100px;
@@ -371,10 +372,14 @@ start-with CSS
     line-height: 27px;
   }
 
-  .start-with .buttons .find-btn,
+  .start-with .buttons .find-btn{
+    width: 100%;
+    padding: 10px 0;
+  }
+  
   .start-with .buttons .reg-btn {
     width: 100%;
-    padding: 11px 0;
+    padding: 9px 0;
   }
 
   .start-with .single-card {
@@ -577,6 +582,14 @@ latest-job CSS
 
 .latest-job .latest-job-category li button:hover {
   border-color: var(--primary);
+}
+
+.latest-job .latest-job-category li button::before{
+  right: calc(100% - 70px);
+}
+
+.latest-job .latest-job-category li button:hover::before {
+  right: calc(0% - 50px);
 }
 
 .latest-job .single-job {

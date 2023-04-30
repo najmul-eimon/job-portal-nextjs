@@ -4,12 +4,12 @@ import SingleJobCard from "../SingleJobCard";
 const LatestJob = ({handlePageClick, pageCount, currentItems, categories, handleFilter, itemOffset, active, filterJobs}) => {
   return (
     <div className="latest-job">
-      <div className="section-title">
+      <div className="section-title latest-title">
         <h3>Latest Jobs</h3>
       </div>
 
       {/* filter-container */}
-      <div className="filter-container">
+      <div className="filter-container single-filter">
         {/* page count */}
         <div className="page-count">
           <p>Showing <span>{(itemOffset+1) < 10 ? '0' + (itemOffset+1) : (itemOffset+1)}-{(itemOffset + currentItems?.length) < 10 ? '0' + (itemOffset + currentItems?.length) : (itemOffset + currentItems?.length)}</span> of <span>{filterJobs?.length < 10 ? '0' + filterJobs?.length : filterJobs?.length} </span> jobs</p>

@@ -26,7 +26,7 @@ const JobByLocation = () => {
         <div className="row">
           <div className="col-lg-12">
             {/* section title */}
-            <SectionTitle subtitle="Location" title="Job by Location" description="We know the best solution for all of your business ideas and we can help you solve all business problems" />
+            <SectionTitle subtitle="Location" title="Job by Location" description="Building successful careers, one job at a time & Helping professionals find their dream job." />
           </div>
 
           <div className="col-lg-12">

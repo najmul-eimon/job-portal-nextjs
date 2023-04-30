@@ -10,7 +10,7 @@ const Register = () => {
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             {/* section title */}
-            <SectionTitle subtitle="Register" title="Start for free today" description="Access to all features.no credit card required." />
+            <SectionTitle subtitle="Register" title="Start for free today" description="Access to all features. No credit card required." />
             
             {/* google, facebook button */}
             <SocialButton/>

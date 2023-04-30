@@ -9,6 +9,7 @@ filter container  CSS
   font-weight: 700;
   font-size: 16px;
   color: rgba(13, 13, 14, 0.4);
+  line-height: 64px;
 }
 
 .page-count p span {
@@ -22,6 +23,10 @@ filter container  CSS
   align-items: center;
   justify-content: space-between;
   margin-bottom: 24px;
+}
+
+.filter-container.single-filter{
+  margin-bottom: 0;
 }
 
 .filter-container .job-category-buttons {
@@ -55,6 +60,14 @@ filter container  CSS
   color: white;
 }
 
+.filter-container .job-category-buttons li button::before{
+  right: calc(100% - 70px);
+}
+
+.filter-container .job-category-buttons li button:hover::before {
+  right: calc(0% - 50px);
+}
+
 .filter-container .filter-button {
   padding: 6px 8px;
   display: flex;
@@ -85,6 +98,7 @@ filter container  CSS
 
   .page-count p {
     font-size: 14px;
+    line-height: 50px;
   }
 
   .page-count p span {
