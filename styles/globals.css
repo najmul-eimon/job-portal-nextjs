@@ -4,6 +4,7 @@ General CSS
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary: #0075C8;
@@ -15,6 +16,7 @@ General CSS
   --poppins: 'Poppins', sans-serif;
   --lato: 'Lato', sans-serif;
   --playfair: 'Playfair Display', serif;
+  --oswald: 'Oswald', sans-serif;
 }
 
 body {

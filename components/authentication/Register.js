@@ -24,7 +24,7 @@ const Register = () => {
 
               <InputBox inputType="text" label="User Name" id="uname" placeholder="Your user name" />
 
-              <InputBox inputType="password" label="Password" id="pass" />
+              <InputBox inputType="password" label="Password" id="pass" placeholder="**********" />
 
               <div className="input-box input-check-box">
                 <label htmlFor="chk" className="check-container">

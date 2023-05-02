@@ -110,9 +110,10 @@ company CSS
 }
 
 .company .title h2 {
-  font-weight: 700;
   font-size: 20px;
   color: rgba(13, 13, 14, 0.6);
+  font-family: var(--lato);
+  font-weight: 800;
 }
 
 .company .company-slider img {
@@ -284,6 +285,10 @@ start-with CSS
     padding: 10px 14px;
   }
 
+  .start-with .buttons .find-btn{
+    padding: 16px 35px;
+  }
+
   .start-with .single-card .icon-box {
     height: 60px;
     width: 60px;
@@ -319,9 +324,12 @@ start-with CSS
     align-items: flex-start;
   }
 
-  .start-with .buttons .find-btn,
-  .start-with .buttons .reg-btn {
+  .start-with .buttons .find-btn{
     padding: 12px 30px;
+  }
+  
+  .start-with .buttons .reg-btn {
+    padding: 11px 30px;
   }
 
   .start-with .single-card {
@@ -423,7 +431,7 @@ start-with CSS
   .start-with .buttons .find-btn:hover::before,
   .start-with .buttons .reg-btn::before,
   .start-with .buttons .reg-btn:hover::before{
-    right: 100%;
+    right: calc(100% - 35px);
   }
 }
 
@@ -519,10 +527,11 @@ about CSS
 }
 
 .about .single-counter h3 {
+  font-family: var(--oswald);
   padding: 32px 0 8px 0;
   font-size: 32px;
   line-height: 50px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--primary-text2);
 }
 
@@ -535,7 +544,8 @@ about CSS
 @media screen and (max-width: 767px) {
   .about {
     background: url('../public/images/about-bg-mobile.png') no-repeat center;
-    background-size: cover;
+    background-color: #fbfdff;
+    background-size: contain;
     background-position: bottom;
   }
   .about .single-counter .icon-box {

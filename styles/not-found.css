@@ -70,12 +70,6 @@ not-found CSS
   font-size: 20px;
 }
 
-/* .not-found .shadow-sun{
-  opacity: 0.04;
-  animation: rise-shadow 20s linear infinite;
-  transform: scale(0.2);
-} */
-
 .not-found .shadow-sun-box{
   position: absolute;
   top: -20%;
@@ -193,6 +187,7 @@ not-found CSS
     max-height: 50vh;
     height: 100%;
     margin-top: 50px;
+    gap: 16px;
   }
 
   .not-found .box .four{

@@ -83,6 +83,12 @@ blog-banner CSS
   border-radius: 4px;
 }
 
+@media (min-width: 992px) and (max-width: 1279px) {
+  .blog-banner .content .form-filed {
+    background-color: white;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .blog-banner .content h2 {
     font-size: 28px;
@@ -202,7 +208,7 @@ featured-blog CSS
 
 .featured-blog .blog-card p {
   font-size: 14px;
-  color: rgba(13, 13, 14, 0.6);
+  color: rgba(13, 13, 14, 0.8);
   padding-bottom: 24px;
 }
 
