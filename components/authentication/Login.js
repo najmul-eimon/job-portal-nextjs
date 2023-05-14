@@ -18,9 +18,9 @@ const Login = () => {
             <h4 className="divider">Or continue with</h4>
 
             <form action="#!">
-              <InputBox inputType="text" label="UserName or Email Address" placeholder="Your user name" id="luname" />
+              <InputBox inputType="text" label="Username or Email Address" placeholder="Your Username" id="luname" />
 
-              <InputBox inputType="password" label="Password" id="lpass" placeholder="**********" />
+              <InputBox inputType="password" label="Password" id="lpass" placeholder="Password" />
 
               <div className="input-box input-check-box">
                 <label htmlFor="chk" className="check-container">

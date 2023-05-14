@@ -22,9 +22,9 @@ const Register = () => {
 
               <InputBox inputType="email" label="Email" id="emaill" />
 
-              <InputBox inputType="text" label="User Name" id="uname" placeholder="Your user name" />
+              <InputBox inputType="text" label="Username" id="uname" placeholder="Your Usernname" />
 
-              <InputBox inputType="password" label="Password" id="pass" placeholder="**********" />
+              <InputBox inputType="password" label="Password" id="pass" placeholder="Password" />
 
               <div className="input-box input-check-box">
                 <label htmlFor="chk" className="check-container">
